@@ -1,6 +1,6 @@
-# [Journaling App] - AI-Powered Journaling Web App
+# MindFrame - AI-Powered Journaling Web App
 
-A secure, privacy-focused journaling application built with React, TailwindCSS, Flask, and MongoDB. [Journaling App] helps users reflect on their thoughts and emotions with AI-powered insights and mood tracking capabilities.
+A secure, privacy-focused journaling application built with React, TailwindCSS, Flask, and MongoDB. MindFrame helps users reflect on their thoughts and emotions with AI-powered insights and mood tracking capabilities.
 
 ## 🌟 Features
 
