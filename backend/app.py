@@ -3,12 +3,11 @@ from pymongo import MongoClient
 from dotenv import load_dotenv
 import os
 
-load_dotenv()  # Loads variables from .env
+load_dotenv()
 
 app = Flask(__name__)
 
 MONGO_URI = os.environ.get("MONGO_URI")
-print(f"Loaded MONGO_URI: {MONGO_URI}")  # Debug print to verify the URI
 client = MongoClient(MONGO_URI)
 db = client["MindFrame-Journal"]
 
