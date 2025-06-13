@@ -1,5 +1,6 @@
 import React from "react";
 import useGlobalReducer from "../../hooks/useGlobalReducer";
+import { Link } from "react-router-dom";
 
 export function Home() {
   const { store, dispatch } = useGlobalReducer();
@@ -16,6 +17,11 @@ export function Home() {
       >
         {store.message}
       </div>
+      <Link to={"/test"}>
+        <button className="bg-blue-200 p-4 rounded-xl mt-4">
+          Go to Test Page
+        </button>
+      </Link>
     </>
   );
 }
