@@ -6,12 +6,14 @@ import {
 import Home from "./pages/Home";
 import Layout from "./Layout";
 import { Test } from "./pages/Test";
+import { Journal } from "./pages/Journal";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />} errorElement={<h1>Path not found</h1>}>
       <Route path="/" element={<Home />} />
       <Route path="/test" element={<Test />} />
+      <Route path="/journal" element={<Journal />} />
     </Route>
   )
 );
