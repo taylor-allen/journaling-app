@@ -81,7 +81,7 @@ A secure, privacy-focused journaling application built with React, TailwindCSS, 
 
 2. **Create virtual environment**
    ```bash
-   python -m venv venv
+   python -m venv venv       # On Mac: python3 -m venv venv
    source venv/bin/activate  # On Windows: venv\\Scripts\\activate
    ```
 
